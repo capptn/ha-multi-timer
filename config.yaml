@@ -1,0 +1,16 @@
+name: Visual Timer Clock
+slug: visual_timer_clock
+version: "1.0.0"
+description: Visuelle Zeitschaltuhr mit frei definierbaren Aktionen
+startup: services
+boot: auto
+ingress: true
+panel_icon: mdi:clock-outline
+arch:
+  - amd64
+  - aarch64
+ports:
+  8099/tcp: 8099
+webui: http://[HOST]:[PORT:8099]
+options: {}
+schema: {}

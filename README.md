@@ -1,1 +1,2 @@
-# ha-multi-timer
+# Visual Timer Clock
+Home Assistant Add-on
